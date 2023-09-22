@@ -1,0 +1,60 @@
+.navbar3 {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  border: 1px solid white;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  background-color: #f4f4f4;
+  width: 33.33%;
+  height: 60px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon3-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.icon3-link:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); /* Add this line */
+}
+
+.icon3-link:hover:nth-child(1) {
+  background-color: rgba(255, 0, 0, 0.4);
+  box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.6); /* Add this line */
+}
+
+.icon3-link:hover:nth-child(2) {
+  background-color: rgba(0, 255, 0, 0.4);
+  box-shadow: 0px 4px 8px rgba(0, 255, 0, 0.6); /* Add this line */
+}
+
+.icon3-link:hover:nth-child(3) {
+  background-color: rgba(0, 0, 255, 0.4);
+  box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.6); /* Add this line */
+}
+
+.icon3-link:hover:nth-child(4) {
+  background-color: rgba(255, 255, 0, 0.4);
+  box-shadow: 0px 4px 8px rgba(255, 255, 0, 0.6); /* Add this line */
+}
+
+.icon3-link svg {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
