@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import SocialMedia from "./1_components/socialMedia/SocialMedia";
 import SocialMedia2 from "./1_components/socialMedia2/SocialMedia2";
+import SocialMedia3 from "./1_components/socialMedia3/SocialMedia3";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
+        <SocialMedia3 className="footer3" />
         <SocialMedia2 className="footer2" />
         <SocialMedia className="footer" />
       </body>

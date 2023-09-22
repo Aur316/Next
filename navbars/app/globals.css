@@ -15,3 +15,24 @@
   padding: 20px 0;
   text-align: center;
 }
+
+.footer3 {
+  width: 100%;
+  position: fixed;
+  bottom: 200px; /* This makes .footer2 sit right above .footer */
+  background-color: #042b25;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 1200px;
+}
