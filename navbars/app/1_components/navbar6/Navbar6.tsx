@@ -29,9 +29,11 @@ export default function Navbar6() {
     setAboutOpen(false);
     setContactOpen(false);
   };
+
   useEffect(() => {
-    const handleOutsideClick = (event) => {
-      if (!event.target.closest(".navbar6-container")) {
+    const handleOutsideClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest(".navbar6-container")) {
         closeAllMenus();
       }
     };
