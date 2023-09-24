@@ -92,7 +92,7 @@ body {
   color: #40a9ff;
 }
 
-.dropdown-menu {
+.navbar6dropdown-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,16 +106,16 @@ body {
   z-index: 999;
 }
 
-.dropdown-menu a {
+.navbar6dropdown-menu a {
   padding: 5px 5px;
   display: block;
 }
 
-.dropdown-menu a:hover {
+.navbar6dropdown-menu a:hover {
   color: #40a9ff;
 }
 
-.hamburger-menu {
+.navbar6hamburger-menu {
   display: none;
   font-size: 30px;
   cursor: pointer;
@@ -167,7 +167,7 @@ body {
     margin-bottom: 8px;
   }
 
-  .hamburger-menu {
+  .navbar6hamburger-menu {
     display: block;
   }
 
@@ -184,7 +184,7 @@ body {
     align-items: center;
   }
 
-  .dropdown-menu {
+  .navbar6dropdown-menu {
     position: static;
     background: transparent;
     margin-top: 10px;

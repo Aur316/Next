@@ -11,6 +11,8 @@ export default function Navbar() {
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
         <Link href="/history">History</Link>
+        <Link href="square">Square</Link>
+        <Link href="/kykeon">Kykeon</Link>
         <div className="animation start-homes"></div>
       </nav>
     </div>

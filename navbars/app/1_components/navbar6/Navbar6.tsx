@@ -51,7 +51,7 @@ export default function Navbar6() {
       </Link>
       <div
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        className="hamburger-menu"
+        className="navbar6hamburger-menu"
       >
         ☰
       </div>
@@ -66,7 +66,7 @@ export default function Navbar6() {
         >
           Services
           {servicesOpen && (
-            <div className="dropdown-menu">
+            <div className="navbar6dropdown-menu">
               <Link
                 href="#"
                 onClick={() => {
@@ -140,7 +140,7 @@ export default function Navbar6() {
         >
           About
           {aboutOpen && (
-            <div className="dropdown-menu">
+            <div className="navbar6dropdown-menu">
               <Link
                 href="#"
                 onClick={() => {
@@ -170,7 +170,7 @@ export default function Navbar6() {
         >
           Contact
           {contactOpen && (
-            <div className="dropdown-menu">
+            <div className="navbar6dropdown-menu">
               <Link
                 href="#"
                 onClick={() => {

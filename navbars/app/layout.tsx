@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <SocialMedia3 className="footer3" />
+        <SocialMedia3 className="footer3 " />
         <SocialMedia2 className="footer2" />
         <SocialMedia className="footer" />
       </body>

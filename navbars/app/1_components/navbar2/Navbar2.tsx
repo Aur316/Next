@@ -39,6 +39,13 @@ export default function Navbar2() {
         >
           History
         </a>
+        <a
+          href="/kykeon"
+          className="link contact-link"
+          onClick={handleLinkClick}
+        >
+          Kykeon
+        </a>
       </div>
     </nav>
   );
